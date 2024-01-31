@@ -31,12 +31,12 @@ public class Plaer {
         for (Toy t: queue) 
         {
          
-         // int min=0;
+         
             if(t.getWeight()>randWeigth)
             {
               toys.add(t);              
             }
-        // min =min+1;
+        
            
          }
      }
