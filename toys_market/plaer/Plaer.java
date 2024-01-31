@@ -1,13 +1,8 @@
 package plaer;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.PriorityQueue;
 import java.util.Queue;
-import java.util.Random;
-
-import create.Creater;
 import toys.Toy;
 
 public class Plaer {
@@ -29,18 +24,13 @@ public class Plaer {
         int randWeigth = (int) Math.floor(Math.random()*generalWeight);
         System.out.println(randWeigth);
         for (Toy t: queue) 
-        {
-         
-         
+        {    
             if(t.getWeight()>randWeigth)
             {
               toys.add(t);              
-            }
-        
-           
+            }          
          }
-     }
-       
+     }    
          return toys;                  
     }
 

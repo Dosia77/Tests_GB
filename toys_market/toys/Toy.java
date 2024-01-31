@@ -32,15 +32,7 @@ public class Toy implements Comparable<Toy>{
             return this.getWeight()- toy.getWeight();
 
         }
-        // @Override
-        // public String toString() {
-        //     return "Toy{" +
-        //             "id= " + id+
-        //             " , name = " + name+
-        //             ", weight = " + weight+
-        //             '}';
-        // }
-
+       
         @Override
         public String toString(){
             return  "\nid "+ id+"\nname "+name+"\nweight "+weight;

@@ -1,8 +1,5 @@
 package view;
 
-import java.util.Comparator;
-import java.util.List;
-import java.util.PriorityQueue;
 import java.util.Queue;
 import toys.Toy;
 import create.*;
@@ -25,9 +22,7 @@ public class Viewer {
     int generalWeight = pl.getGeneralWeight(queue);
 
     wr.writeToys(pl.getToy(queue, generalWeight));
-   // System.out.println(queue);
-    
-    
+   // System.out.println(queue);   
 }
 
 }
