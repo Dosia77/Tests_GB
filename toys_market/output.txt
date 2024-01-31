@@ -1,0 +1,9 @@
+3 Doll 6
+3 Doll 6
+2 Robot 2
+1 Constructor 2
+3 Doll 6
+3 Doll 6
+2 Robot 2
+1 Constructor 2
+3 Doll 6
